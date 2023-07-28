@@ -1,0 +1,50 @@
+body{
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://plus.unsplash.com/premium_photo-1679524071089-a764eab39407?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9ybXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    font-size: 22px;
+}
+
+.colorform {
+     background: linear-gradient(to top,#b373de, #d77ba4, #f77575);
+     /* background-image: conic-gradient(rgb(249, 144, 144), rgb(227, 227, 84), rgb(85, 190, 85), rgb(135, 135, 205), rgb(246, 228, 228)); */
+ }
+
+ .colorstd {
+     background: #fff;
+      /* background: linear-gradient(to left, #b5add2, #e39393, #b9bf8a); */
+ }
+
+
+#stdinfo .edit {
+     color: #2d158a !important;
+     margin: 0px !important;
+ }
+
+ #stdinfo .trash {
+     color: #d02332 !important;
+ }
+
+ button:hover {
+     background-color: #62bbee;
+     color: #fff;
+ }
+
+ tr:nth-child(odd){
+    background-color: #d2e389;
+ }
+ tr:nth-child(even){
+    background-color: rgb(236, 183, 133);
+ }
+ th{
+    background-color: rgb(158, 205, 213);
+    border: 1px solid #ada2da;
+ }
+
+ .table td{
+    border: 1px solid rgb(104, 98, 98);
+}
